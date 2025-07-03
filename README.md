@@ -18,15 +18,15 @@ This is an interactive **Quiz Application** built with Python using the **Tkinte
 ## 🧱 Project Structure
 
 QuizApp-main/
-├── quiz_gui/
-│ ├── main.py # App entry point
-│ ├── ui.py # GUI setup and event handling
-│ ├── quiz_brain.py # Quiz logic and state tracking
-│ ├── question_model.py # Question object model
-│ ├── data.py # Quiz question data or API calls
-│ ├── images/
-│ │ ├── true.png # Image for true button
-│ │ └── false.png # Image for false button
+---quiz_gui/
+   ── main.py # App entry point
+   ── ui.py # GUI setup and event handling
+   ── quiz_brain.py # Quiz logic and state tracking
+   ── question_model.py # Question object model
+   ── data.py # Quiz question data or API calls
+   ── images/
+      ── true.png # Image for true button
+      ── false.png # Image for false button
 ├── README.md
 
 Run the application:
